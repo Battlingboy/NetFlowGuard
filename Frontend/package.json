@@ -1,0 +1,25 @@
+{
+  "name": "dqqfilerecvgithubexp2-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "push": "npm run build && scp -O -r ./dist 【Your IP Address & Target File Path】"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.2.1",
+    "axios": "^1.15.0",
+    "echarts": "^6.0.0",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.32",
+    "vue-echarts": "^8.0.1",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^5.4.21"
+  }
+}
