@@ -1,0 +1,15 @@
+{
+  "name": "dpdk-anomaly-flow-detector-master",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"./media/DPDKCapLogo_400x260.png\"/> <p/>",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "push": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

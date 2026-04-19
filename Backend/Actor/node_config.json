@@ -1,0 +1,30 @@
+{
+    "node_id": "ID",
+    "hardware": {
+        "cpu": {
+            "model": "Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz",
+            "base_frequency": "2.20 GHz",
+            "numa_nodes": 2
+        },
+        "nic": {
+            "model": "Ethernet Controller X710 for 10GbE",
+            "simplified": "10 Gbps"
+        },
+        "memory": {
+            "full": "128GB DDR4 3200MT/s",
+            "simplified": "128GB"
+        }
+    },
+    "software": {
+        "os_full": "Debian GNU/Linux 11 (bullseye)",
+        "os_simplified": "Debian Linux",
+        "kernel": "5.10.0-33-amd64",
+        "gcc": "10.2.1",
+        "dpdk": "24.03.0",
+        "python": "3.9.2"
+    },
+    "network": {
+        "comm_mac": "MAC"
+    },
+    "status": "alive"
+}
