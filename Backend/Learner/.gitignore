@@ -1,0 +1,14 @@
+build
+builddir
+**/build
+**/builddir
+.vscode
+media
+*.pcap
+*.pcapng
+*.lzo
+*.csv
+*.txt
+.git/*
+[0-9]*
+proxy-*.log
