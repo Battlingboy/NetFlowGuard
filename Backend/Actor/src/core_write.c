@@ -615,9 +615,6 @@ int write_core(const struct core_write_config *config)
     // uint64_t mysql_start_time = rte_rdtsc();
 
 
-    // if (load_file_into_mysql(&mysql_conn, MYSQL_TABLE_NAME, "/home/tbps/jkzhang/dpdk-anomaly-flow-detector/csv/output_ipv4_1.csv", DEFAULT_FLOW_SEQ_LEN) != 0) {
-    //     return -1;
-    // }
 
     // uint64_t msyql_duration = (rte_rdtsc() - mysql_start_time) * 1000 / rte_get_timer_hz();
     // printf("插入数据库共耗时: %lu ms\n", msyql_duration);
