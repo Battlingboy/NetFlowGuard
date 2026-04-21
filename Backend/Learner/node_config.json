@@ -1,0 +1,30 @@
+{
+    "node_id": "183",
+    "hardware": {
+        "cpu": {
+            "model": "Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz",
+            "base_frequency": "2.20 GHz",
+            "numa_nodes": 2
+        },
+        "nic": {
+            "model": "Ethernet Controller X710 for 10GbE SFP+",
+            "simplified": "10 Gbps"
+        },
+        "memory": {
+            "full": "128GB DDR4 3200MT/s",
+            "simplified": "128GB"
+        }
+    },
+    "software": {
+        "os_full": "Ubuntu 20.04.5 LTS",
+        "os_simplified": "Ubuntu Linux",
+        "kernel": "5.4.0-216-generic",
+        "gcc": "11.2.0",
+        "dpdk": "24.03.0",
+        "python": "3.10.4"
+    },
+    "network": {
+        "comm_mac": "MAC"
+    },
+    "status": "alive"
+}
